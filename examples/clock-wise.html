@@ -1,0 +1,25 @@
+<html>
+    <!--
+        example script for keycombo.js.
+        Licensed under the MIT License. Copyright by DracoBlue 2011.
+    -->
+    <head>
+        <title>Clock-Wise with keycombo.js!</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/mootools/1.3.2/mootools.js" > </script>
+        <script type="text/javascript" src="../lib/KeyKomboManager.js" > </script>
+        <script type="text/javascript">
+        // <!--
+
+        var key_combo_manager = KeyComboManager.getInstance();
+        key_combo_manager.addKeyCombo(['up', 'right', 'down', 'left'], function()
+        {
+            alert('Clock-wise!');
+        });
+
+        // -->
+        </script>
+    </head>
+    <body>
+        Press UP, RIGHT, DOWN and LEFT.
+    </body>
+</html>
