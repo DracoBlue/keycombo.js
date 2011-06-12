@@ -16,11 +16,11 @@ installed. It's intended that this dependency is removed soon. See the
 
 ## Example
 
-var key_combo_manager = KeyComboManager.getInstance();
-key_combo_manager.addKeyCombo(['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'], function() 
-{
-    alert('You pressed the konami code!');
-});
+    var key_combo_manager = KeyComboManager.getInstance();
+    key_combo_manager.addKeyCombo(['up', 'up', 'down', 'down', 'left', 'right', 'left', 'right', 'b', 'a'], function() 
+    {
+        alert('You pressed the konami code!');
+    });
 
 ## API
 
