@@ -1,17 +1,16 @@
 keycombo.js README
 ===========================
 
-Version: 1.0.0
+Latest Release: [![GitHub version](https://badge.fury.io/gh/DracoBlue%2Fkeykombo.js.png)](https://github.com/DracoBlue/keykombo.js/releases)
 
 Official Site: <http://dracoblue.net/>
 
-keycombo.js is copyright 2011 by DracoBlue <http://dracoblue.net>
+keycombo.js is copyright 2011-2015 by DracoBlue <http://dracoblue.net>
 
 What is keycombo.js?
 --------------------
 This library is meant to be an easy library to bind functions in javascript
-to key combinations by the user. It is currently necessary to have mootools
-installed. It's intended that this dependency is removed soon. See the
+to key combinations by the user. See the
 `examples/clock-wise.html` for an example.
 
 ## Example
@@ -50,6 +49,8 @@ KeyComboManager.
 Changelog
 ---------
 
+- 1.1.0 (2015/08/13)
+  - removed mootools dependency
 - 1.0.0 (2011/06/12)
   - Initial release
 
